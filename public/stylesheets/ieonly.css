@@ -1,0 +1,10 @@
+#maincontent {
+	position: right;
+	top: 108px;
+}
+
+#mainmenu_div {
+	position: absolute;
+	top: 630px;
+	left: -10px;
+	text-decoration: lowercase;

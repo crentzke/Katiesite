@@ -1,0 +1,140 @@
+body
+{
+	background-color: #000000;
+	color:#000000;
+	font-family:   "Lucida sans","Lucida Grande",verdana, helvetica, sans-serif;
+	font-size: 14px;
+}
+p {padding-right: 25px; padding-top: 0px; margin: 0px}
+td {padding-right: 10px; padding-top: 0px;}
+
+#goddiv {
+	position: relative;
+	width: 930px;
+	margin: 0 auto;
+}
+#header {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+a:link, a:visited{
+	color:#640c0c;
+	text-decoration: none; 
+}
+a:hover {
+	color:#ffffff;
+	text-decoration: none; 
+}
+#table{
+	border: 1px solid black;
+	height:50px;
+}
+#background_grey  {
+	position: absolute;
+	margin-top: 88px;
+	left: -3px;	
+}
+#maincontent_full {
+	position: absolute;
+	top: 110px;
+	left:20px;
+	width: 900px;
+	height: 580px;
+	overflow: auto;
+}		
+#maincontent {
+	position: absolute;
+	top: 110px;
+	left: 372px;
+	width: 370px;
+	height: 480px;
+	border-right: 1px solid black;
+	overflow: auto;
+}
+#submenu_div {
+	position: absolute;
+	top: 90px;
+	left: 721px;
+	line-height: 25px;
+		
+}
+#submenu_div a:link, #submenu_div a:visited {
+	color:#000000;
+	text-transform: none;
+	text-decoration: none;
+}
+#submenu_div a:hover {
+	color: #ffffff;
+	text-decoration: none;	
+}	
+#mainmenu_div {
+	position: absolute;
+	top: 610px;
+	left: -19px;
+	text-decoration: lowercase;
+}
+#mainmenu_div a:link, #mainmenu_div a:visited {
+	color: #929290;
+	text-decoration: none;
+	text-transform: lowercase;
+}	
+#mainmenu_div a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: lowercase;	
+}
+#mainmenu_div ul {
+	list-style: none;
+	position: relative; 
+}
+#mainmenu_div ul li {
+	float: left;
+	margin-right: 57px;
+}
+#mainmenu_div ul li a { 
+display: block; 
+}
+#mainmenu_div ul li	{
+position: relative;
+}
+.contentheaderimg {
+	position:absolute;
+	top: 108px;
+	left: 22px;
+	padding-bottom: 100px;
+}
+
+.active {
+	color:#ffffff	
+}
+
+.nav-controls a:link, .nav-controls a:visited {
+	color: #000000;
+	text-decoration: none;	
+}
+
+.nav-controls a:hover {
+	color: #ffffff;
+	text-decoration: none;	
+}
+a
+{
+  outline: none;
+}
+	
+ul { 
+list-style: none; 
+}
+
+.caption {
+  background: #111;
+  filter:alpha(opacity=0);
+  opacity:.0;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding:10px;
+  right: 167px;
+  width: 700px;
+}

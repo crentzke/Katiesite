@@ -1,0 +1,14 @@
+#maincontent {
+	position: absolute;
+	top: 295px;
+}
+.contentheaderimg {
+	position: absolute;
+	top: 501px;
+}
+#mainmenu_div {
+	position: absolute;
+	top: 615px;
+	left: -19px;
+	text-decoration: lowercase;
+}
